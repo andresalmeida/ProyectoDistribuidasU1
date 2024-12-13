@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "w409MVdc7dk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ASUS\\OneDrive\\Imágenes\\ProyectoNCapas\\Proyecto\\DAL\\DAL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\entityframework\\6.2.0\\entityframework.6.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

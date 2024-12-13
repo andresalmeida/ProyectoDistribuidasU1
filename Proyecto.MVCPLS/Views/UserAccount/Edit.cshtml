@@ -1,0 +1,215 @@
+﻿@model Entities.UserAccount
+
+@{
+    ViewBag.Title = "Editar Usuario";
+}
+
+<div class="form-container">
+    <h2>Editar Usuario</h2>
+
+    @using (Html.BeginForm("Edit", "UserAccount", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(model => model.UserID)
+
+        @Html.ValidationSummary(true, "Por favor corrige los siguientes errores:", new { @class = "text-danger" })
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.UserName, htmlAttributes: new { @class = "form-label" })
+            @Html.TextBoxFor(model => model.UserName, new { @class = "form-control minimal-input", placeholder = "Ingrese el nombre de usuario" })
+            @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "form-label" })
+            @Html.TextBoxFor(model => model.Email, new { @class = "form-control minimal-input", placeholder = "Ingrese el correo electrónico", type = "email" })
+            <small class="form-hint">Ingrese un correo electrónico válido.</small>
+            @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.PasswordHash, htmlAttributes: new { @class = "form-label" })
+            @Html.PasswordFor(model => model.PasswordHash, new { @id = "PasswordHash", @class = "form-control minimal-input", placeholder = "Ingrese la nueva contraseña" })
+            @Html.ValidationMessageFor(model => model.PasswordHash, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            <label for="ConfirmPassword" class="form-label">Verificar Contraseña:</label>
+            <input id="ConfirmPassword" class="form-control minimal-input" type="password" placeholder="Verifique su contraseña" />
+            <span id="confirmPasswordError" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Status, htmlAttributes: new { @class = "form-label" })
+            @Html.DropDownListFor(
+                          model => model.Status,
+                          new SelectList(new[] { "Activo", "Inactivo" }, Model.Status),
+                          "Seleccione un estado",
+                          new { @id = "Status", @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Status, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Role, htmlAttributes: new { @class = "form-label" })
+            @Html.TextBoxFor(model => model.Role, new { @class = "form-control minimal-input", placeholder = "Rol del usuario", @readonly = "readonly" })
+            <small class="form-hint">El rol no puede ser modificado.</small>
+            @Html.ValidationMessageFor(model => model.Role, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-buttons">
+            <button type="submit" class="btn minimal-btn">Actualizar</button>
+            <a href="@Url.Action("List", "UserAccount")" class="btn minimal-btn-cancel">Cancelar</a>
+        </div>
+    }
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const form = document.querySelector("form");
+        const emailField = document.getElementById("Email");
+        const confirmPasswordField = document.getElementById("ConfirmPassword");
+        const passwordField = document.getElementById("PasswordHash");
+        const statusField = document.getElementById("Status");
+        const confirmPasswordError = document.getElementById("confirmPasswordError");
+
+        form.addEventListener("submit", function (event) {
+            let hasErrors = false;
+
+
+
+            // Comparar contraseñas
+            if (passwordField.value !== confirmPasswordField.value) {
+                confirmPasswordError.textContent = "Las contraseñas no coinciden.";
+                hasErrors = true;
+            } else {
+                confirmPasswordError.textContent = "";
+            }
+
+            // Validar estado
+            if (statusField.value === "") {
+                alert("Debe seleccionar un estado.");
+                hasErrors = true;
+            }
+
+            if (hasErrors) {
+                event.preventDefault();
+            }
+        });
+    });
+</script>
+
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: url('https://i.pinimg.com/originals/72/dc/33/72dc339da93a143ec1ed0d54143ecfea.jpg') no-repeat center center/cover;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-container {
+        background-color: rgba(255, 255, 255, 0.95);
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        width: 100%;
+        max-width: 500px;
+        animation: fadeIn 0.8s ease;
+    }
+
+    @@keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: scale(0.9);
+        }
+
+        to {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+
+    h2 {
+        color: #ff6600;
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 20px;
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-label {
+        font-weight: bold;
+        color: #555;
+        margin-bottom: 8px;
+        display: block;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-size: 14px;
+        transition: all 0.3s ease;
+    }
+
+        .form-control:focus {
+            border-color: #ff6600;
+            box-shadow: 0 0 8px rgba(255, 102, 0, 0.5);
+            outline: none;
+        }
+
+    .form-buttons {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .btn {
+        padding: 12px 20px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        border-radius: 8px;
+        text-decoration: none;
+        display: inline-block;
+        font-weight: bold;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .minimal-btn {
+        background-color: #ff6600;
+        color: white;
+        margin-right: 10px;
+    }
+
+        .minimal-btn:hover {
+            background-color: #e65a00;
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(255, 102, 0, 0.3);
+        }
+
+    .minimal-btn-cancel {
+        background-color: #6c757d;
+        color: white;
+    }
+
+        .minimal-btn-cancel:hover {
+            background-color: #5a6268;
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(108, 117, 125, 0.3);
+        }
+
+    .text-danger {
+        color: #dc3545;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+</style>

@@ -1,0 +1,144 @@
+﻿@model List<Entities.Product>
+
+@{
+    ViewBag.Title = "Lista de Productos";
+}
+
+<div class="content-container">
+    <h2>Productos en Categoría</h2>
+
+    @if (!string.IsNullOrEmpty(ViewBag.SuccessMessage))
+    {
+        <div class="centered-message success">
+            @ViewBag.SuccessMessage
+        </div>
+    }
+
+    @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+    {
+        <div class="centered-message error">
+            @ViewBag.ErrorMessage
+        </div>
+    }
+
+    @if (Model != null && Model.Any())
+    {
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Precio Unitario</th>
+                        <th>Unidades en Stock</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var product in Model)
+                    {
+                        <tr>
+                            <td>@product.ProductID</td>
+                            <td>@product.ProductName</td>
+                            <td>@string.Format("{0:C}", product.UnitPrice)</td>
+                            <td>@product.UnitsInStock</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+    else
+    {
+        <p class="no-data">No hay productos en esta categoría.</p>
+    }
+</div>
+
+<style>
+    /* Fondo y estilo general */
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: url('https://i.pinimg.com/originals/72/dc/33/72dc339da93a143ec1ed0d54143ecfea.jpg') no-repeat center center/cover;
+        margin: 0;
+        padding: 20px;
+        color: #333;
+    }
+
+    .content-container {
+        max-width: 1000px;
+        margin: 20px auto;
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    h2 {
+        text-align: center;
+        color: #ff6600;
+        font-size: 28px;
+        margin-bottom: 20px;
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    .centered-message {
+        text-align: center;
+        padding: 10px;
+        margin: 10px auto;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .success {
+        background-color: #d4edda;
+        color: #155724;
+        border: 1px solid #c3e6cb;
+    }
+
+    .error {
+        background-color: #f8d7da;
+        color: #721c24;
+        border: 1px solid #f5c6cb;
+    }
+
+    .no-data {
+        text-align: center;
+        color: #555;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .table-wrapper {
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 8px;
+        background-color: #fff;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th, td {
+        text-align: left;
+        padding: 12px 15px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #ff6600;
+        color: white;
+        font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+        background-color: rgba(255, 102, 0, 0.1);
+    }
+
+    tr:hover {
+        background-color: rgba(255, 102, 0, 0.2);
+    }
+</style>

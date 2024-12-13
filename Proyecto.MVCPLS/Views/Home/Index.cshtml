@@ -1,0 +1,249 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: url('https://i.pinimg.com/originals/72/dc/33/72dc339da93a143ec1ed0d54143ecfea.jpg') no-repeat center center/cover;
+            color: #333;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(255, 102, 0, 0.9);
+            color: white;
+            padding: 15px 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+            .navbar h1 {
+                font-size: 24px;
+                text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+            }
+
+        .logout-btn {
+            background-color: #fff;
+            color: #ff6600;
+            border: 1px solid #ff6600;
+            padding: 10px 15px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+            .logout-btn:hover {
+                background-color: #ff6600;
+                color: #fff;
+                transform: scale(1.1);
+                box-shadow: 0 4px 10px rgba(255, 102, 0, 0.5);
+            }
+
+        /* Contenido principal */
+        .content-wrapper {
+            margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: 30px;
+        }
+
+            .content-wrapper h1 {
+                font-size: 36px;
+                color: #ff6600;
+                text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+            }
+
+        ul {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            list-style-type: none;
+            gap: 20px;
+        }
+
+        li {
+            width: 200px;
+        }
+
+            li a {
+                display: block;
+                text-decoration: none;
+                color: white;
+                background: linear-gradient(135deg, #ff6600, #ffa31a);
+                padding: 20px;
+                text-align: center;
+                border-radius: 12px;
+                font-size: 16px;
+                font-weight: bold;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+                transition: all 0.3s ease;
+            }
+
+                li a:hover {
+                    background: linear-gradient(135deg, #ffa31a, #ff6600);
+                    transform: translateY(-5px);
+                    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+                }
+
+        /* Modal */
+        .logout-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 2000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+
+            .logout-modal.active {
+                opacity: 1;
+                visibility: visible;
+            }
+
+        .modal-content {
+            background: white;
+            border-radius: 12px;
+            padding: 20px 30px;
+            text-align: center;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+            animation: fadeInScale 0.3s ease;
+        }
+
+        @@keyframes fadeInScale {
+            from {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .modal-content h2 {
+            font-size: 22px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .modal-content p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .modal-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+            .modal-buttons button {
+                padding: 10px 20px;
+                font-size: 14px;
+                border: none;
+                border-radius: 8px;
+                cursor: pointer;
+                transition: all 0.3s ease;
+            }
+
+        .confirm-btn {
+            background-color: #ff6600;
+            color: white;
+        }
+
+            .confirm-btn:hover {
+                background-color: #e65a00;
+            }
+
+        .cancel-btn {
+            background-color: #ddd;
+            color: #333;
+        }
+
+            .cancel-btn:hover {
+                background-color: #bbb;
+            }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <h1>Sistema N CAPAS</h1>
+        <button class="logout-btn" onclick="openLogoutModal()">Cerrar Sesión</button>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="content-wrapper">
+        <h1>Bienvenido al Sistema</h1>
+        <ul>
+            <li><a href="@Url.Action("List", "Product")">Gestionar Productos</a></li>
+            <li><a href="@Url.Action("List", "Category")">Gestionar Categorías</a></li>
+            <li><a href="@Url.Action("List", "UserAccount")">Gestionar Usuarios</a></li>
+        </ul>
+    </div>
+
+    <!-- Modal de cierre de sesión -->
+    <div class="logout-modal" id="logoutModal">
+        <div class="modal-content">
+            <h2>¿Deseas cerrar sesión?</h2>
+            <p>Tu sesión será cerrada y deberás iniciar sesión nuevamente para continuar.</p>
+            <div class="modal-buttons">
+                <button class="confirm-btn" onclick="confirmLogout()">Cerrar Sesión</button>
+                <button class="cancel-btn" onclick="closeLogoutModal()">Cancelar</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openLogoutModal() {
+            document.getElementById('logoutModal').classList.add('active');
+        }
+
+        function closeLogoutModal() {
+            document.getElementById('logoutModal').classList.remove('active');
+        }
+
+        function confirmLogout() {
+            window.location.href = "@Url.Action("Logout", "Account")";
+        }
+    </script>
+</body>
+</html>

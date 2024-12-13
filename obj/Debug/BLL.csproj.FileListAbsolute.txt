@@ -1,0 +1,2 @@
+C:\Users\rodri\OneDrive\Documentos\PREGRADO S-II NOV 23 - MAR 24\Proyecto_NCapas-main\6. Proyecto\Proyecto\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\rodri\OneDrive\Documentos\PREGRADO S-II NOV 23 - MAR 24\Proyecto_NCapas-main\6. Proyecto\Proyecto\obj\Debug\BLL.csproj.CoreCompileInputs.cache
