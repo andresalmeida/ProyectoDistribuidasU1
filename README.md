@@ -90,10 +90,6 @@ Arquitectura de capas:
 
 Las contribuciones son bienvenidas. Por favor, lee las guías de contribución antes de enviar un pull request.
 
-## 📄 Licencia
-
-[Especificar la licencia del proyecto]
-
 ## 👥 Autores
 
 - Almeida Andrés
