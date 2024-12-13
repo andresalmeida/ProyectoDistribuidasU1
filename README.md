@@ -103,3 +103,9 @@ Las contribuciones son bienvenidas. Por favor, lee las guías de contribución a
 ---
 
 **Nota**: Este proyecto fue desarrollado como parte del curso de Aplicaciones Distribuidas.
+
+## ☢️ PRECAUCIÓN
+
+Dentro del repositorio se encuentra una carpeta llamada 📁"ProyectoNCapas VF"📁. Esta carpeta no es parte de la solución, sino, es una carpeta que dentro contiene la última versión -solución- del código que tiene corrección de errores, y, así mismo, contiene los scripts SQL necesarios para ingresar dummy data y poder hacer consultas en la BD.
+
+Se sugiere separar esta carpeta de las otras, y abrirla como lo que es, una solución con proyectos, individual. 
