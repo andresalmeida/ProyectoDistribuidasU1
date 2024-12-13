@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7f5d90fdf4d541e08a43a26cb49f2c23" Name="Diagram1">
+        <EntityTypeShape EntityType="Sales_DBModel.Audit" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sales_DBModel.Category" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sales_DBModel.Product" Width="1.5" PointX="6" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sales_DBModel.SecurityLog" Width="1.5" PointX="3" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sales_DBModel.UserAccount" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <AssociationConnector Association="Sales_DBModel.FK__Audit__UserID__6EF57B66" ManuallyRouted="false" />
+        <AssociationConnector Association="Sales_DBModel.FK__Product__Categor__66603565" ManuallyRouted="false" />
+        <AssociationConnector Association="Sales_DBModel.FK__Product__UserID__6754599E" ManuallyRouted="false" />
+        <AssociationConnector Association="Sales_DBModel.FK__SecurityL__UserI__6B24EA82" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
