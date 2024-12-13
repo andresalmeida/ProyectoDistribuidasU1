@@ -1,0 +1,127 @@
+﻿@model Entities.UserAccount
+
+@{
+    ViewBag.Title = "Agregar Usuario";
+}
+
+<div class="form-container">
+    <h2>Agregar Nuevo Usuario</h2>
+
+    <!-- Formulario de Registro -->
+    <form id="registrationForm" method="post" action="@Url.Action("AddUser", "UserAccount")">
+        @Html.AntiForgeryToken()
+
+        <div class="form-group">
+            <label for="UserName">Nombre de Usuario:</label>
+            @Html.TextBoxFor(model => model.UserName, new { @id = "UserName", @class = "form-control minimal-input", placeholder = "Nombre de usuario" })
+            @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            <label for="Email">Correo Electrónico:</label>
+            @Html.TextBoxFor(model => model.Email, new { @id = "Email", @class = "form-control minimal-input", placeholder = "Correo electrónico", type = "email" })
+            @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            <label for="PasswordHash">Contraseña:</label>
+            @Html.PasswordFor(model => model.PasswordHash, new { @id = "PasswordHash", @class = "form-control minimal-input", placeholder = "Contraseña" })
+            @Html.ValidationMessageFor(model => model.PasswordHash, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            <label for="Role">Rol:</label>
+            @Html.TextBoxFor(model => model.Role, new { @id = "Role", @class = "form-control minimal-input", placeholder = "Rol del usuario" })
+            @Html.ValidationMessageFor(model => model.Role, "", new { @class = "text-danger" })
+        </div>
+
+        @*<div class="form-group">
+            <label for="Status">Estado:</label>
+            @Html.DropDownListFor(
+                          model => model.Status,
+                          new SelectList(new[] {
+                    new { Value = "1", Text = "Activo" },
+                    new { Value = "0", Text = "Inactivo" }
+                          }, "Value", "Text"),
+                          new { @id = "Status", @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Status, "", new { @class = "text-danger" })
+        </div>*@
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Status, "Estado:", htmlAttributes: new { @class = "form-label" })
+            @Html.DropDownListFor(
+                    model => model.Status,
+                    new List<SelectListItem>
+                    {
+            new SelectListItem { Text = "Activo", Value = "Active" },
+            new SelectListItem { Text = "Inactivo", Value = "Inactive" }
+                    },
+                    "Seleccione un estado",
+                    new { @class = "form-control" }
+                )
+            @Html.ValidationMessageFor(model => model.Status, "", new { @class = "text-danger" })
+        </div>
+
+
+        <div class="form-buttons">
+            <button type="submit" class="btn minimal-btn">Crear Usuario</button>
+        </div>
+    </form>
+</div>
+
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f7f7f7;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-container {
+        background-color: white;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    label {
+        font-weight: 500;
+        margin-bottom: 5px;
+        display: block;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #fff;
+        font-size: 14px;
+    }
+
+    .form-buttons {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 14px;
+        border: none;
+        cursor: pointer;
+        border-radius: 4px;
+        background-color: #007bff;
+        color: white;
+
+    }
+</style>

@@ -1,0 +1,182 @@
+﻿@model List<Entities.Product>
+
+@{
+    ViewBag.Title = "Lista de Productos";
+}
+
+<h2>Lista de Productos</h2>
+
+@if (!string.IsNullOrEmpty(ViewBag.SuccessMessage))
+{
+    <div class="centered-message success">
+        @ViewBag.SuccessMessage
+    </div>
+}
+
+@if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+{
+    <div class="centered-message error">
+        @ViewBag.ErrorMessage
+    </div>
+}
+
+@if (Model != null && Model.Any())
+{
+    <div class="content-wrapper">
+        <ul>
+            <li style="text-align: right;">
+                <a href="@Url.Action("Create", "Product")" class="button-link create-btn">Crear Producto</a>
+            </li>
+        </ul>
+    </div>
+
+    <table class="minimalist-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Categoría</th>
+                <th>Precio Unitario</th>
+                <th>Unidades en Stock</th>
+                <th>Usuario</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model)
+            {
+                <tr>
+                    <td>@product.ProductID</td>
+                    <td>@product.ProductName</td>
+                    <td>@product.CategoryID</td>
+                    <td>@string.Format("{0:C}", product.UnitPrice)</td>
+                    <td>@product.UnitsInStock</td>
+                    <td>@product.UserID</td>
+                    <td>
+                        <a href="@Url.Action("Edit", "Product", new { id = product.ProductID })" class="action-btn edit-btn">Editar</a>
+                        |
+                        <a href="@Url.Action("Delete", "Product", new { id = product.ProductID })" class="action-btn delete-btn">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No hay productos disponibles.</p>
+}
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        color: #333;
+    }
+
+    h2 {
+        color: #555;
+    }
+
+    .minimalist-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+        .minimalist-table th, .minimalist-table td {
+            padding: 12px 15px;
+            text-align: left;
+        }
+
+        .minimalist-table thead {
+            background-color: #f7f7f7;
+        }
+
+        .minimalist-table th {
+            font-size: 14px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        .minimalist-table tbody tr {
+            border-bottom: 1px solid #ddd;
+        }
+
+            .minimalist-table tbody tr:hover {
+                background-color: #f1f1f1;
+            }
+
+    .content-wrapper {
+        margin-bottom: 20px;
+    }
+
+    .button-link {
+        display: inline-block;
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+
+        .button-link:hover {
+            background-color: #0056b3;
+        }
+
+    .create-btn {
+        background-color: #28a745;
+    }
+
+        .create-btn:hover {
+            background-color: #218838;
+        }
+
+    .action-btn {
+        padding: 6px 12px;
+        font-size: 14px;
+        border-radius: 5px;
+        text-decoration: none;
+        margin: 0 5px;
+    }
+
+    .edit-btn {
+        background-color: #28a745;
+        color: white;
+    }
+
+        .edit-btn:hover {
+            background-color: #218838;
+        }
+
+    .delete-btn {
+        background-color: #dc3545;
+        color: white;
+    }
+
+        .delete-btn:hover {
+            background-color: #c82333;
+        }
+
+    .centered-message {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 15px 20px;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+        .centered-message.success {
+            background-color: #d4edda;
+            color: #155724;
+        }
+
+        .centered-message.error {
+            background-color: #f8d7da;
+            color: #721c24;
+
+        }
+</style>
