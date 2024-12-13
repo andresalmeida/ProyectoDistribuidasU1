@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ASUS\\OneDrive\\Escritorio\\Proyectov3\\Proyecto\\SLC\\SLC.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ASUS\\OneDrive\\Escritorio\\Proyectov3\\Proyecto\\Entities\\Entities.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Escritorio\\Proyectov3\\Proyecto\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "C:\\Users\\ASUS\\OneDrive\\Escritorio\\Proyectov3\\Proyecto\\Entities\\Entities.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\ASUS\\OneDrive\\Escritorio\\Proyectov3\\Proyecto\\SLC\\SLC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Escritorio\\Proyectov3\\Proyecto\\SLC\\SLC.csproj",
+        "projectName": "SLC",
+        "projectPath": "C:\\Users\\ASUS\\OneDrive\\Escritorio\\Proyectov3\\Proyecto\\SLC\\SLC.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ASUS\\OneDrive\\Escritorio\\Proyectov3\\Proyecto\\SLC\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "UsingMicrosoftNETSdk": false,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\ASUS\\OneDrive\\Escritorio\\Proyectov3\\Proyecto\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\OneDrive\\Escritorio\\Proyectov3\\Proyecto\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

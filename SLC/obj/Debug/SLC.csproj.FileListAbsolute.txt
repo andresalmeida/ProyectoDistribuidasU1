@@ -1,0 +1,36 @@
+D:\7. Septimo Semestre\3. Aplicaciones Distribuidas\4. Proyecto\Proyecto\SLC\bin\Debug\SLC.dll
+D:\7. Septimo Semestre\3. Aplicaciones Distribuidas\4. Proyecto\Proyecto\SLC\bin\Debug\SLC.pdb
+D:\7. Septimo Semestre\3. Aplicaciones Distribuidas\4. Proyecto\Proyecto\SLC\bin\Debug\Entities.dll
+D:\7. Septimo Semestre\3. Aplicaciones Distribuidas\4. Proyecto\Proyecto\SLC\bin\Debug\Entities.pdb
+D:\7. Septimo Semestre\3. Aplicaciones Distribuidas\4. Proyecto\Proyecto\SLC\obj\Debug\SLC.csproj.AssemblyReference.cache
+D:\7. Septimo Semestre\3. Aplicaciones Distribuidas\4. Proyecto\Proyecto\SLC\obj\Debug\SLC.csproj.CoreCompileInputs.cache
+D:\7. Septimo Semestre\3. Aplicaciones Distribuidas\4. Proyecto\Proyecto\SLC\obj\Debug\SLC.csproj.Up2Date
+D:\7. Septimo Semestre\3. Aplicaciones Distribuidas\4. Proyecto\Proyecto\SLC\obj\Debug\SLC.dll
+D:\7. Septimo Semestre\3. Aplicaciones Distribuidas\4. Proyecto\Proyecto\SLC\obj\Debug\SLC.pdb
+C:\Users\ASUS TUF A15\Downloads\Borrador\repositorio\Proyecto_NCapas\6. Proyecto\Proyecto\SLC\bin\Debug\SLC.dll
+C:\Users\ASUS TUF A15\Downloads\Borrador\repositorio\Proyecto_NCapas\6. Proyecto\Proyecto\SLC\bin\Debug\SLC.pdb
+C:\Users\ASUS TUF A15\Downloads\Borrador\repositorio\Proyecto_NCapas\6. Proyecto\Proyecto\SLC\bin\Debug\Entities.dll
+C:\Users\ASUS TUF A15\Downloads\Borrador\repositorio\Proyecto_NCapas\6. Proyecto\Proyecto\SLC\bin\Debug\Entities.pdb
+C:\Users\ASUS TUF A15\Downloads\Borrador\repositorio\Proyecto_NCapas\6. Proyecto\Proyecto\SLC\obj\Debug\SLC.csproj.AssemblyReference.cache
+C:\Users\ASUS TUF A15\Downloads\Borrador\repositorio\Proyecto_NCapas\6. Proyecto\Proyecto\SLC\obj\Debug\SLC.csproj.CoreCompileInputs.cache
+C:\Users\ASUS TUF A15\Downloads\Borrador\repositorio\Proyecto_NCapas\6. Proyecto\Proyecto\SLC\obj\Debug\SLC.csproj.Up2Date
+C:\Users\ASUS TUF A15\Downloads\Borrador\repositorio\Proyecto_NCapas\6. Proyecto\Proyecto\SLC\obj\Debug\SLC.dll
+C:\Users\ASUS TUF A15\Downloads\Borrador\repositorio\Proyecto_NCapas\6. Proyecto\Proyecto\SLC\obj\Debug\SLC.pdb
+C:\Users\rodri\OneDrive\Documentos\PREGRADO S-II NOV 23 - MAR 24\Proyecto_NCapas-main\6. Proyecto\Proyecto\SLC\bin\Debug\SLC.dll
+C:\Users\rodri\OneDrive\Documentos\PREGRADO S-II NOV 23 - MAR 24\Proyecto_NCapas-main\6. Proyecto\Proyecto\SLC\bin\Debug\SLC.pdb
+C:\Users\rodri\OneDrive\Documentos\PREGRADO S-II NOV 23 - MAR 24\Proyecto_NCapas-main\6. Proyecto\Proyecto\SLC\bin\Debug\Entities.dll
+C:\Users\rodri\OneDrive\Documentos\PREGRADO S-II NOV 23 - MAR 24\Proyecto_NCapas-main\6. Proyecto\Proyecto\SLC\bin\Debug\Entities.pdb
+C:\Users\rodri\OneDrive\Documentos\PREGRADO S-II NOV 23 - MAR 24\Proyecto_NCapas-main\6. Proyecto\Proyecto\SLC\obj\Debug\SLC.csproj.AssemblyReference.cache
+C:\Users\rodri\OneDrive\Documentos\PREGRADO S-II NOV 23 - MAR 24\Proyecto_NCapas-main\6. Proyecto\Proyecto\SLC\obj\Debug\SLC.csproj.CoreCompileInputs.cache
+C:\Users\rodri\OneDrive\Documentos\PREGRADO S-II NOV 23 - MAR 24\Proyecto_NCapas-main\6. Proyecto\Proyecto\SLC\obj\Debug\SLC.csproj.Up2Date
+C:\Users\rodri\OneDrive\Documentos\PREGRADO S-II NOV 23 - MAR 24\Proyecto_NCapas-main\6. Proyecto\Proyecto\SLC\obj\Debug\SLC.dll
+C:\Users\rodri\OneDrive\Documentos\PREGRADO S-II NOV 23 - MAR 24\Proyecto_NCapas-main\6. Proyecto\Proyecto\SLC\obj\Debug\SLC.pdb
+C:\Users\ASUS\OneDrive\Escritorio\Proyectov3\Proyecto\SLC\bin\Debug\SLC.dll
+C:\Users\ASUS\OneDrive\Escritorio\Proyectov3\Proyecto\SLC\bin\Debug\SLC.pdb
+C:\Users\ASUS\OneDrive\Escritorio\Proyectov3\Proyecto\SLC\bin\Debug\Entities.dll
+C:\Users\ASUS\OneDrive\Escritorio\Proyectov3\Proyecto\SLC\bin\Debug\Entities.pdb
+C:\Users\ASUS\OneDrive\Escritorio\Proyectov3\Proyecto\SLC\obj\Debug\SLC.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Escritorio\Proyectov3\Proyecto\SLC\obj\Debug\SLC.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Escritorio\Proyectov3\Proyecto\SLC\obj\Debug\SLC.csproj.Up2Date
+C:\Users\ASUS\OneDrive\Escritorio\Proyectov3\Proyecto\SLC\obj\Debug\SLC.dll
+C:\Users\ASUS\OneDrive\Escritorio\Proyectov3\Proyecto\SLC\obj\Debug\SLC.pdb
