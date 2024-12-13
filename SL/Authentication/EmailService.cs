@@ -11,7 +11,7 @@ public class EmailService : IEmailService
         var smtpClient = new SmtpClient("smtp.sendgrid.net")
         {
             Port = 587,
-            Credentials = new NetworkCredential("apikey", "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"),
+            Credentials = new NetworkCredential("apikey", ""),
             EnableSsl = true,
         };
 
