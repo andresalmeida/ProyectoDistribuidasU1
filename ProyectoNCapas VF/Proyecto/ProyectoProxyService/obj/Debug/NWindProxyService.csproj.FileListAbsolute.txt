@@ -1,0 +1,13 @@
+C:\Users\ASUS\Music\ProyectoNCapas\Proyecto\ProyectoProxyService\bin\Debug\ProyectoProxyService.dll
+C:\Users\ASUS\Music\ProyectoNCapas\Proyecto\ProyectoProxyService\bin\Debug\ProyectoProxyService.pdb
+C:\Users\ASUS\Music\ProyectoNCapas\Proyecto\ProyectoProxyService\bin\Debug\Entities.dll
+C:\Users\ASUS\Music\ProyectoNCapas\Proyecto\ProyectoProxyService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ASUS\Music\ProyectoNCapas\Proyecto\ProyectoProxyService\bin\Debug\SLC.dll
+C:\Users\ASUS\Music\ProyectoNCapas\Proyecto\ProyectoProxyService\bin\Debug\Entities.pdb
+C:\Users\ASUS\Music\ProyectoNCapas\Proyecto\ProyectoProxyService\bin\Debug\SLC.pdb
+C:\Users\ASUS\Music\ProyectoNCapas\Proyecto\ProyectoProxyService\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ASUS\Music\ProyectoNCapas\Proyecto\ProyectoProxyService\obj\Debug\NWindProxyService.csproj.AssemblyReference.cache
+C:\Users\ASUS\Music\ProyectoNCapas\Proyecto\ProyectoProxyService\obj\Debug\NWindProxyService.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Music\ProyectoNCapas\Proyecto\ProyectoProxyService\obj\Debug\NWindPro.37EB41C3.Up2Date
+C:\Users\ASUS\Music\ProyectoNCapas\Proyecto\ProyectoProxyService\obj\Debug\ProyectoProxyService.dll
+C:\Users\ASUS\Music\ProyectoNCapas\Proyecto\ProyectoProxyService\obj\Debug\ProyectoProxyService.pdb

@@ -1,0 +1,6 @@
+projectKey=proyecto_n_capas
+serverUrl=http://192.168.1.54:9000
+serverVersion=24.12.0.100206
+dashboardUrl=http://192.168.1.54:9000/dashboard?id=proyecto_n_capas
+ceTaskId=bc71f622-396e-4335-a958-8a0ee051bec0
+ceTaskUrl=http://192.168.1.54:9000/api/ce/task?id=bc71f622-396e-4335-a958-8a0ee051bec0

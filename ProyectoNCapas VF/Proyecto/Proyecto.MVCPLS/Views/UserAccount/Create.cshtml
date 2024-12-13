@@ -1,0 +1,175 @@
+﻿@model Entities.UserAccount
+
+@{
+    ViewBag.Title = "Crear Usuario";
+}
+
+<div class="form-container">
+    <h2>Crear Usuario</h2>
+
+    @using (Html.BeginForm("Create", "UserAccount", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.UserName, "Nombre de Usuario:", htmlAttributes: new { @class = "form-label" })
+            @Html.TextBoxFor(model => model.UserName, new { @class = "form-control minimal-input", placeholder = "Ingrese su nombre de usuario" })
+            @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Email, "Correo Electrónico:", htmlAttributes: new { @class = "form-label" })
+            @Html.TextBoxFor(model => model.Email, new { @class = "form-control minimal-input", placeholder = "Ingrese su correo electrónico" })
+            @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.PasswordHash, "Contraseña:", htmlAttributes: new { @class = "form-label" })
+            @Html.PasswordFor(model => model.PasswordHash, new { @class = "form-control minimal-input", placeholder = "Ingrese su contraseña" })
+            @Html.ValidationMessageFor(model => model.PasswordHash, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Role, "Rol:", htmlAttributes: new { @class = "form-label" })
+            @Html.DropDownListFor(model => model.Role, new SelectList(new[] { "Admin", "Editor", "Viewer" }, Model.Role), "Seleccione un rol", new { @class = "form-control minimal-input" })
+            @Html.ValidationMessageFor(model => model.Role, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Status, "Estado:", htmlAttributes: new { @class = "form-label" })
+            @Html.DropDownListFor(
+                model => model.Status,
+                new List<SelectListItem>
+                {
+                    new SelectListItem { Text = "Activo", Value = "Active" },
+                    new SelectListItem { Text = "Inactivo", Value = "Inactive" }
+                },
+                "Seleccione un estado",
+                new { @class = "form-control" }
+            )
+            @Html.ValidationMessageFor(model => model.Status, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-buttons">
+            <button type="submit" class="btn minimal-btn">Crear Usuario</button>
+            <a href="@Url.Action("List", "UserAccount")" class="btn minimal-btn-cancel">Cancelar</a>
+        </div>
+    }
+</div>
+
+<style>
+    /* Fondo y estilo general */
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: url('https://i.pinimg.com/originals/72/dc/33/72dc339da93a143ec1ed0d54143ecfea.jpg') no-repeat center center/cover;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-container {
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        width: 100%;
+        max-width: 500px;
+        animation: fadeIn 0.8s ease;
+    }
+
+    @@keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: scale(0.95);
+        }
+
+        to {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+
+    h2 {
+        color: #ff6600;
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 24px;
+        font-weight: bold;
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .form-label {
+        font-weight: bold;
+        color: #555;
+        margin-bottom: 8px;
+        display: block;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-size: 14px;
+        transition: all 0.3s ease;
+    }
+
+        .form-control:focus {
+            border-color: #ff6600;
+            box-shadow: 0 0 8px rgba(255, 102, 0, 0.5);
+            outline: none;
+        }
+
+    .form-buttons {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        border-radius: 8px;
+        text-decoration: none;
+        display: inline-block;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .minimal-btn {
+        background-color: #ff6600;
+        color: #fff;
+        margin-right: 10px;
+    }
+
+        .minimal-btn:hover {
+            background-color: #e65a00;
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(255, 102, 0, 0.3);
+        }
+
+    .minimal-btn-cancel {
+        background-color: #ccc;
+        color: #333;
+    }
+
+        .minimal-btn-cancel:hover {
+            background-color: #aaa;
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+    .text-danger {
+        color: #dc3545;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+</style>

@@ -1,0 +1,234 @@
+﻿@model List<Entities.Product>
+
+@{
+    ViewBag.Title = "Lista de Productos";
+}
+
+<div class="content-container">
+    <div class="header-container">
+        <h2>Lista de Productos</h2>
+        <a href="@Url.Action("Index", "Home")" class="header-button">Inicio</a>
+    </div>
+
+    @if (!string.IsNullOrEmpty(ViewBag.SuccessMessage))
+    {
+        <div class="centered-message success">
+            @ViewBag.SuccessMessage
+        </div>
+    }
+
+    @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+    {
+        <div class="centered-message error">
+            @ViewBag.ErrorMessage
+        </div>
+    }
+
+    @if (Model != null && Model.Any())
+    {
+        <div class="content-wrapper">
+            <div class="button-container">
+                <a href="@Url.Action("Create", "Product")" class="button-link create-btn">Crear Producto</a>
+            </div>
+        </div>
+
+        <table class="modern-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Categoría</th>
+                    <th>Precio Unitario</th>
+                    <th>Unidades en Stock</th>
+                    <th>Usuario</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var product in Model)
+                {
+                    <tr>
+                        <td>@product.ProductID</td>
+                        <td>@product.ProductName</td>
+                        <td>@product.CategoryID</td>
+                        <td>@string.Format("{0:C}", product.UnitPrice)</td>
+                        <td>@product.UnitsInStock</td>
+                        <td>@product.UserID</td>
+                        <td>
+                            <a href="@Url.Action("Edit", "Product", new { id = product.ProductID })" class="action-btn edit-btn">Editar</a>
+                            <a href="@Url.Action("Delete", "Product", new { id = product.ProductID })" class="action-btn delete-btn">Eliminar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <div class="no-data">
+            <p>No hay productos disponibles.</p>
+        </div>
+    }
+</div>
+
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: url('https://i.pinimg.com/originals/72/dc/33/72dc339da93a143ec1ed0d54143ecfea.jpg') no-repeat center center/cover;
+        color: #333;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .content-container {
+        max-width: 1200px;
+        margin: 20px auto;
+        background-color: rgba(255, 255, 255, 0.95);
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .header-button {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: bold;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+        .header-button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #ff6600;
+        font-size: 28px;
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    .centered-message {
+        text-align: center;
+        padding: 10px;
+        margin: 20px;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .success {
+        background-color: #d4edda;
+        color: #155724;
+        border: 1px solid #c3e6cb;
+    }
+
+    .error {
+        background-color: #f8d7da;
+        color: #721c24;
+        border: 1px solid #f5c6cb;
+    }
+
+    .no-data {
+        text-align: center;
+        color: #555;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .content-wrapper {
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
+    .button-link {
+        background-color: #ff6600;
+        color: #fff;
+        padding: 12px 25px;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s, background-color 0.3s ease;
+    }
+
+        .button-link:hover {
+            background-color: #e65a00;
+            transform: translateY(-2px);
+            box-shadow: 0px 6px 10px rgba(255, 102, 0, 0.3);
+        }
+
+    .modern-table {
+        width: 100%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        background-color: #fff;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+        .modern-table th, .modern-table td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .modern-table th {
+            background-color: #ff6600;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .modern-table tr:hover {
+            background-color: rgba(255, 102, 0, 0.1);
+        }
+
+    .action-btn {
+        text-decoration: none;
+        padding: 8px 12px;
+        border-radius: 8px;
+        font-size: 14px;
+        transition: background-color 0.3s ease;
+    }
+
+    .edit-btn {
+        background-color: #28a745;
+        color: white;
+    }
+
+        .edit-btn:hover {
+            background-color: #218838;
+        }
+
+    .delete-btn {
+        background-color: #dc3545;
+        color: white;
+    }
+
+        .delete-btn:hover {
+            background-color: #c82333;
+
+        }
+</style>

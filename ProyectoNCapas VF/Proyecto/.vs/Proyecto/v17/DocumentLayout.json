@@ -1,0 +1,835 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\NWind.MVCPLS.csproj|c:\\users\\asus\\music\\proyectoncapas\\proyecto\\proyecto.mvcpls\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\NWind.MVCPLS.csproj|solutionrelative:proyecto.mvcpls\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F871FF-4214-4951-AB7B-F439C3290D34}|SL\\SL.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\sl\\logger\\loghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F871FF-4214-4951-AB7B-F439C3290D34}|SL\\SL.csproj|solutionrelative:sl\\logger\\loghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F871FF-4214-4951-AB7B-F439C3290D34}|SL\\SL.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\sl\\authentication\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F871FF-4214-4951-AB7B-F439C3290D34}|SL\\SL.csproj|solutionrelative:sl\\authentication\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8333A6FD-0531-4428-90B3-577B8CF54B7A}|DLL\\BLL.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\dll\\useraccountlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8333A6FD-0531-4428-90B3-577B8CF54B7A}|DLL\\BLL.csproj|solutionrelative:dll\\useraccountlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA2AF97-5274-4930-BEFE-6F9FCDD62EC7}|DAL\\DAL.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\dal\\sales_dbentities.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{2BA2AF97-5274-4930-BEFE-6F9FCDD62EC7}|DAL\\DAL.csproj|solutionrelative:dal\\sales_dbentities.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8333A6FD-0531-4428-90B3-577B8CF54B7A}|DLL\\BLL.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\DLL\\CategoryLogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8333A6FD-0531-4428-90B3-577B8CF54B7A}|DLL\\BLL.csproj|solutionrelative:DLL\\CategoryLogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8333A6FD-0531-4428-90B3-577B8CF54B7A}|DLL\\BLL.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\DLL\\ProductLogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8333A6FD-0531-4428-90B3-577B8CF54B7A}|DLL\\BLL.csproj|solutionrelative:DLL\\ProductLogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\NWind.MVCPLS.csproj|c:\\users\\asus\\music\\proyectoncapas\\proyecto\\proyecto.mvcpls\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\NWind.MVCPLS.csproj|solutionrelative:proyecto.mvcpls\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\Proyecto.MVCPLS.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\proyecto.mvcpls\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\Proyecto.MVCPLS.csproj|solutionrelative:proyecto.mvcpls\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2619136-E8A0-4807-B9A3-17C57BD78133}|Service\\Service.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\service\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2619136-E8A0-4807-B9A3-17C57BD78133}|Service\\Service.csproj|solutionrelative:service\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\NWind.MVCPLS.csproj|c:\\users\\asus\\music\\proyectoncapas\\proyecto\\proyecto.mvcpls\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\NWind.MVCPLS.csproj|solutionrelative:proyecto.mvcpls\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\NWind.MVCPLS.csproj|c:\\users\\asus\\music\\proyectoncapas\\proyecto\\proyecto.mvcpls\\filters\\roleauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\NWind.MVCPLS.csproj|solutionrelative:proyecto.mvcpls\\filters\\roleauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\Proyecto.MVCPLS.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\proyecto.mvcpls\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\Proyecto.MVCPLS.csproj|solutionrelative:proyecto.mvcpls\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\Proyecto.MVCPLS.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\proyecto.mvcpls\\filters\\roleauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\Proyecto.MVCPLS.csproj|solutionrelative:proyecto.mvcpls\\filters\\roleauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\Proyecto.MVCPLS.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\proyecto.mvcpls\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\Proyecto.MVCPLS.csproj|solutionrelative:proyecto.mvcpls\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2619136-E8A0-4807-B9A3-17C57BD78133}|Service\\Service.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\service\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2619136-E8A0-4807-B9A3-17C57BD78133}|Service\\Service.csproj|solutionrelative:service\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2619136-E8A0-4807-B9A3-17C57BD78133}|Service\\Service.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\service\\controllers\\useraccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2619136-E8A0-4807-B9A3-17C57BD78133}|Service\\Service.csproj|solutionrelative:service\\controllers\\useraccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F871FF-4214-4951-AB7B-F439C3290D34}|SL\\SL.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\sl\\authentication\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F871FF-4214-4951-AB7B-F439C3290D34}|SL\\SL.csproj|solutionrelative:sl\\authentication\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\NWind.MVCPLS.csproj|c:\\users\\asus\\music\\proyectoncapas\\proyecto\\proyecto.mvcpls\\views\\useraccount\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\NWind.MVCPLS.csproj|solutionrelative:proyecto.mvcpls\\views\\useraccount\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\Proyecto.MVCPLS.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\proyecto.mvcpls\\controllers\\useraccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\Proyecto.MVCPLS.csproj|solutionrelative:proyecto.mvcpls\\controllers\\useraccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\Proyecto.MVCPLS.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\proyecto.mvcpls\\views\\useraccount\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\Proyecto.MVCPLS.csproj|solutionrelative:proyecto.mvcpls\\views\\useraccount\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\Proyecto.MVCPLS.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\proyecto.mvcpls\\views\\useraccount\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\Proyecto.MVCPLS.csproj|solutionrelative:proyecto.mvcpls\\views\\useraccount\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D6BE6A9-5814-4653-9F2B-1731CFE5C3B9}|ProyectoProxyService\\ProyectoProxyService.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\proyectoproxyservice\\proxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D6BE6A9-5814-4653-9F2B-1731CFE5C3B9}|ProyectoProxyService\\ProyectoProxyService.csproj|solutionrelative:proyectoproxyservice\\proxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\Proyecto.MVCPLS.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\proyecto.mvcpls\\views\\useraccount\\verifycodeandchangepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\Proyecto.MVCPLS.csproj|solutionrelative:proyecto.mvcpls\\views\\useraccount\\verifycodeandchangepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067360F1-31EC-4027-A302-B009424B562C}|Entities\\Entities.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\entities\\updatepasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067360F1-31EC-4027-A302-B009424B562C}|Entities\\Entities.csproj|solutionrelative:entities\\updatepasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F871FF-4214-4951-AB7B-F439C3290D34}|SL\\SL.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\sl\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{82F871FF-4214-4951-AB7B-F439C3290D34}|SL\\SL.csproj|solutionrelative:sl\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\Proyecto.MVCPLS.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\proyecto.mvcpls\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\Proyecto.MVCPLS.csproj|solutionrelative:proyecto.mvcpls\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA2AF97-5274-4930-BEFE-6F9FCDD62EC7}|DAL\\DAL.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\dal\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA2AF97-5274-4930-BEFE-6F9FCDD62EC7}|DAL\\DAL.csproj|solutionrelative:dal\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA2AF97-5274-4930-BEFE-6F9FCDD62EC7}|DAL\\DAL.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\dal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2BA2AF97-5274-4930-BEFE-6F9FCDD62EC7}|DAL\\DAL.csproj|solutionrelative:dal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA2AF97-5274-4930-BEFE-6F9FCDD62EC7}|DAL\\DAL.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\dal\\repositoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA2AF97-5274-4930-BEFE-6F9FCDD62EC7}|DAL\\DAL.csproj|solutionrelative:dal\\repositoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\Proyecto.MVCPLS.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\proyecto.mvcpls\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\Proyecto.MVCPLS.csproj|solutionrelative:proyecto.mvcpls\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA2AF97-5274-4930-BEFE-6F9FCDD62EC7}|DAL\\DAL.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\dal\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA2AF97-5274-4930-BEFE-6F9FCDD62EC7}|DAL\\DAL.csproj|solutionrelative:dal\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA2AF97-5274-4930-BEFE-6F9FCDD62EC7}|DAL\\DAL.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\dal\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA2AF97-5274-4930-BEFE-6F9FCDD62EC7}|DAL\\DAL.csproj|solutionrelative:dal\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067360F1-31EC-4027-A302-B009424B562C}|Entities\\Entities.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067360F1-31EC-4027-A302-B009424B562C}|Entities\\Entities.csproj|solutionrelative:entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067360F1-31EC-4027-A302-B009424B562C}|Entities\\Entities.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067360F1-31EC-4027-A302-B009424B562C}|Entities\\Entities.csproj|solutionrelative:entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44B45158-9757-43BF-9710-7329E7FA4DFA}|SLC\\SLC.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\slc\\ilogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44B45158-9757-43BF-9710-7329E7FA4DFA}|SLC\\SLC.csproj|solutionrelative:slc\\ilogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44B45158-9757-43BF-9710-7329E7FA4DFA}|SLC\\SLC.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\slc\\iuseraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44B45158-9757-43BF-9710-7329E7FA4DFA}|SLC\\SLC.csproj|solutionrelative:slc\\iuseraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2619136-E8A0-4807-B9A3-17C57BD78133}|Service\\Service.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\service\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2619136-E8A0-4807-B9A3-17C57BD78133}|Service\\Service.csproj|solutionrelative:service\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44B45158-9757-43BF-9710-7329E7FA4DFA}|SLC\\SLC.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\slc\\iproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44B45158-9757-43BF-9710-7329E7FA4DFA}|SLC\\SLC.csproj|solutionrelative:slc\\iproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44B45158-9757-43BF-9710-7329E7FA4DFA}|SLC\\SLC.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\slc\\icategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44B45158-9757-43BF-9710-7329E7FA4DFA}|SLC\\SLC.csproj|solutionrelative:slc\\icategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067360F1-31EC-4027-A302-B009424B562C}|Entities\\Entities.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\entities\\securitylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067360F1-31EC-4027-A302-B009424B562C}|Entities\\Entities.csproj|solutionrelative:entities\\securitylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067360F1-31EC-4027-A302-B009424B562C}|Entities\\Entities.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\entities\\audit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067360F1-31EC-4027-A302-B009424B562C}|Entities\\Entities.csproj|solutionrelative:entities\\audit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\Proyecto.MVCPLS.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\proyecto.mvcpls\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\Proyecto.MVCPLS.csproj|solutionrelative:proyecto.mvcpls\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2619136-E8A0-4807-B9A3-17C57BD78133}|Service\\Service.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\service\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2619136-E8A0-4807-B9A3-17C57BD78133}|Service\\Service.csproj|solutionrelative:service\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\Proyecto.MVCPLS.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\proyecto.mvcpls\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\Proyecto.MVCPLS.csproj|solutionrelative:proyecto.mvcpls\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\Proyecto.MVCPLS.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\proyecto.mvcpls\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7F01E102-2C9D-4E6D-A9FE-F8AC2B6C9803}|Proyecto.MVCPLS\\Proyecto.MVCPLS.csproj|solutionrelative:proyecto.mvcpls\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8333A6FD-0531-4428-90B3-577B8CF54B7A}|DLL\\BLL.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\DLL\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8333A6FD-0531-4428-90B3-577B8CF54B7A}|DLL\\BLL.csproj|solutionrelative:DLL\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8333A6FD-0531-4428-90B3-577B8CF54B7A}|DLL\\BLL.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\DLL\\App.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8333A6FD-0531-4428-90B3-577B8CF54B7A}|DLL\\BLL.csproj|solutionrelative:DLL\\App.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8333A6FD-0531-4428-90B3-577B8CF54B7A}|DLL\\BLL.csproj|C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\DLL\\Properties\\AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8333A6FD-0531-4428-90B3-577B8CF54B7A}|DLL\\BLL.csproj|solutionrelative:DLL\\Properties\\AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Proyecto.MVCPLS\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Proyecto.MVCPLS\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0CAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T16:27:57.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoryLogic.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\DLL\\CategoryLogic.cs",
+              "RelativeDocumentMoniker": "DLL\\CategoryLogic.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\DLL\\CategoryLogic.cs",
+              "RelativeToolTip": "DLL\\CategoryLogic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T02:14:14.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductLogic.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\DLL\\ProductLogic.cs",
+              "RelativeDocumentMoniker": "DLL\\ProductLogic.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\DLL\\ProductLogic.cs",
+              "RelativeToolTip": "DLL\\ProductLogic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T01:45:55.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LogHelper.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\SL\\Logger\\LogHelper.cs",
+              "RelativeDocumentMoniker": "SL\\Logger\\LogHelper.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\SL\\Logger\\LogHelper.cs",
+              "RelativeToolTip": "SL\\Logger\\LogHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T06:41:04.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserAccountLogic.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\DLL\\UserAccountLogic.cs",
+              "RelativeDocumentMoniker": "DLL\\UserAccountLogic.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\DLL\\UserAccountLogic.cs",
+              "RelativeToolTip": "DLL\\UserAccountLogic.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwL4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T01:45:30.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\SL\\Authentication\\EmailService.cs",
+              "RelativeDocumentMoniker": "SL\\Authentication\\EmailService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\SL\\Authentication\\EmailService.cs",
+              "RelativeToolTip": "SL\\Authentication\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T14:27:49.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Sales_DBEntities.edmx",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\DAL\\Sales_DBEntities.edmx",
+              "RelativeDocumentMoniker": "DAL\\Sales_DBEntities.edmx",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\DAL\\Sales_DBEntities.edmx",
+              "RelativeToolTip": "DAL\\Sales_DBEntities.edmx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-12-13T01:32:25.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Proyecto.MVCPLS\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Proyecto.MVCPLS\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T16:27:57.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Service\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Service\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Service\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Service\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwKcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T02:16:58.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Proyecto.MVCPLS\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Proyecto.MVCPLS\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T16:27:58.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RoleAuthorizeAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\Filters\\RoleAuthorizeAttribute.cs",
+              "RelativeDocumentMoniker": "Proyecto.MVCPLS\\Filters\\RoleAuthorizeAttribute.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\Filters\\RoleAuthorizeAttribute.cs",
+              "RelativeToolTip": "Proyecto.MVCPLS\\Filters\\RoleAuthorizeAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T17:06:06.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Proyecto.MVCPLS\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Proyecto.MVCPLS\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAK8AAAAAAAAAAADwv8IAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T02:07:16.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Service\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Service\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Service\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Service\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T04:07:42.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Proyecto.MVCPLS\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Proyecto.MVCPLS\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T01:04:13.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserAccountController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Service\\Controllers\\UserAccountController.cs",
+              "RelativeDocumentMoniker": "Service\\Controllers\\UserAccountController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Service\\Controllers\\UserAccountController.cs",
+              "RelativeToolTip": "Service\\Controllers\\UserAccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T09:33:10.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RoleAuthorizeAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\Filters\\RoleAuthorizeAttribute.cs",
+              "RelativeDocumentMoniker": "Proyecto.MVCPLS\\Filters\\RoleAuthorizeAttribute.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\Filters\\RoleAuthorizeAttribute.cs",
+              "RelativeToolTip": "Proyecto.MVCPLS\\Filters\\RoleAuthorizeAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T20:30:46.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\SL\\Authentication\\IEmailService.cs",
+              "RelativeDocumentMoniker": "SL\\Authentication\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\SL\\Authentication\\IEmailService.cs",
+              "RelativeToolTip": "SL\\Authentication\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T03:52:47.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Proyecto.MVCPLS\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Proyecto.MVCPLS\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T02:07:44.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserAccountController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\Controllers\\UserAccountController.cs",
+              "RelativeDocumentMoniker": "Proyecto.MVCPLS\\Controllers\\UserAccountController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\Controllers\\UserAccountController.cs",
+              "RelativeToolTip": "Proyecto.MVCPLS\\Controllers\\UserAccountController.cs",
+              "ViewState": "AgIAAFgFAAAAAAAAAAAAAHMFAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T00:47:09.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AddUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\Views\\UserAccount\\AddUser.cshtml",
+              "RelativeDocumentMoniker": "Proyecto.MVCPLS\\Views\\UserAccount\\AddUser.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\Views\\UserAccount\\AddUser.cshtml",
+              "RelativeToolTip": "Proyecto.MVCPLS\\Views\\UserAccount\\AddUser.cshtml",
+              "ViewState": "AgIAADQAAAAAAAAAAAAtwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T14:12:14.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\Views\\UserAccount\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "Proyecto.MVCPLS\\Views\\UserAccount\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\Views\\UserAccount\\ForgotPassword.cshtml",
+              "RelativeToolTip": "Proyecto.MVCPLS\\Views\\UserAccount\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T09:10:35.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\Views\\UserAccount\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "Proyecto.MVCPLS\\Views\\UserAccount\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\Views\\UserAccount\\ChangePassword.cshtml",
+              "RelativeToolTip": "Proyecto.MVCPLS\\Views\\UserAccount\\ChangePassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T09:24:01.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Proxy.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\ProyectoProxyService\\Proxy.cs",
+              "RelativeDocumentMoniker": "ProyectoProxyService\\Proxy.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\ProyectoProxyService\\Proxy.cs",
+              "RelativeToolTip": "ProyectoProxyService\\Proxy.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAADwv28AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T02:02:25.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "VerifyCodeAndChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\Views\\UserAccount\\VerifyCodeAndChangePassword.cshtml",
+              "RelativeDocumentMoniker": "Proyecto.MVCPLS\\Views\\UserAccount\\VerifyCodeAndChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\Views\\UserAccount\\VerifyCodeAndChangePassword.cshtml",
+              "RelativeToolTip": "Proyecto.MVCPLS\\Views\\UserAccount\\VerifyCodeAndChangePassword.cshtml",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAowIAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T10:19:06.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UpdatePasswordRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Entities\\UpdatePasswordRequest.cs",
+              "RelativeDocumentMoniker": "Entities\\UpdatePasswordRequest.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Entities\\UpdatePasswordRequest.cs",
+              "RelativeToolTip": "Entities\\UpdatePasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T09:50:40.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\SL\\App.config",
+              "RelativeDocumentMoniker": "SL\\App.config",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\SL\\App.config",
+              "RelativeToolTip": "SL\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-12T06:12:31.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Proyecto.MVCPLS\\Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "Proyecto.MVCPLS\\Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T04:40:29.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EFRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\DAL\\EFRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\EFRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\DAL\\EFRepository.cs",
+              "RelativeToolTip": "DAL\\EFRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAcwB0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T03:33:16.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\DLL\\packages.config",
+              "RelativeDocumentMoniker": "DLL\\packages.config",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\DLL\\packages.config",
+              "RelativeToolTip": "DLL\\packages.config",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-12T02:14:08.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "App.Config",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\DAL\\App.Config",
+              "RelativeDocumentMoniker": "DAL\\App.Config",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\DAL\\App.Config",
+              "RelativeToolTip": "DAL\\App.Config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowBEAAACjAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-12T00:50:54.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RepositoryFactory.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\DAL\\RepositoryFactory.cs",
+              "RelativeDocumentMoniker": "DAL\\RepositoryFactory.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\DAL\\RepositoryFactory.cs",
+              "RelativeToolTip": "DAL\\RepositoryFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T03:33:44.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "web.config",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\Views\\web.config",
+              "RelativeDocumentMoniker": "Proyecto.MVCPLS\\Views\\web.config",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\Views\\web.config",
+              "RelativeToolTip": "Proyecto.MVCPLS\\Views\\web.config",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-12T06:11:46.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Model1.Context.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\DAL\\Model1.Context.cs",
+              "RelativeDocumentMoniker": "DAL\\Model1.Context.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\DAL\\Model1.Context.cs",
+              "RelativeToolTip": "DAL\\Model1.Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T01:39:25.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\DAL\\IRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\IRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\DAL\\IRepository.cs",
+              "RelativeToolTip": "DAL\\IRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T03:33:31.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Entities\\Product.cs",
+              "RelativeToolTip": "Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T03:40:58.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Entities\\Category.cs",
+              "RelativeToolTip": "Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T03:39:55.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ILogin.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\SLC\\ILogin.cs",
+              "RelativeDocumentMoniker": "SLC\\ILogin.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\SLC\\ILogin.cs",
+              "RelativeToolTip": "SLC\\ILogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T02:11:50.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IUserAccount.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\SLC\\IUserAccount.cs",
+              "RelativeDocumentMoniker": "SLC\\IUserAccount.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\SLC\\IUserAccount.cs",
+              "RelativeToolTip": "SLC\\IUserAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T02:11:53.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Service\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Service\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Service\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Service\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAswDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T02:09:01.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IProduct.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\SLC\\IProduct.cs",
+              "RelativeDocumentMoniker": "SLC\\IProduct.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\SLC\\IProduct.cs",
+              "RelativeToolTip": "SLC\\IProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T02:06:27.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ICategory.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\SLC\\ICategory.cs",
+              "RelativeDocumentMoniker": "SLC\\ICategory.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\SLC\\ICategory.cs",
+              "RelativeToolTip": "SLC\\ICategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T02:03:13.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "SecurityLog.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Entities\\SecurityLog.cs",
+              "RelativeDocumentMoniker": "Entities\\SecurityLog.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Entities\\SecurityLog.cs",
+              "RelativeToolTip": "Entities\\SecurityLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T03:39:36.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Audit.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Entities\\Audit.cs",
+              "RelativeDocumentMoniker": "Entities\\Audit.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Entities\\Audit.cs",
+              "RelativeToolTip": "Entities\\Audit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T03:40:08.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\DLL\\App.config",
+              "RelativeDocumentMoniker": "DLL\\App.config",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\DLL\\App.config",
+              "RelativeToolTip": "DLL\\App.config",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-12T19:01:38.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\Global.asax.cs",
+              "RelativeDocumentMoniker": "Proyecto.MVCPLS\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\Global.asax.cs",
+              "RelativeToolTip": "Proyecto.MVCPLS\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T05:33:09.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "Proyecto.MVCPLS\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "Proyecto.MVCPLS\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T00:46:43.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Service\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "Service\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Service\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "Service\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T06:18:48.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\packages.config",
+              "RelativeDocumentMoniker": "Proyecto.MVCPLS\\packages.config",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\Proyecto.MVCPLS\\packages.config",
+              "RelativeToolTip": "Proyecto.MVCPLS\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-12T05:33:12.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\DLL\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "DLL\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Music\\ProyectoNCapas\\Proyecto\\DLL\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "DLL\\Properties\\AssemblyInfo.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T04:26:21.276Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
